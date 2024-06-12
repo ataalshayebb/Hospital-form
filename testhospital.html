@@ -1,0 +1,147 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    
+    <br>    <br><br><br>
+
+    <p> Welcome to donuts factory, how may we serve you ?</p>
+     <hr>
+     <div class="container mb-md-0 mb-2">
+        <div class="row mb-md-0 mb-2"> 
+     <div class = "frm mb-md-0 mb-2">
+      
+        <form id = "mo">
+            <label for="firstName"> Name :</label><br>
+            <input type="text" id="namee" name="firstName" required>
+   <br><br>
+            <label for="lastName">Age:</label><br>
+            <input type="text" id="age" name="lastName" required>
+            <br><br>
+
+
+            <div class="radio-group">
+                <label>Gender :</label><br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </div>
+            <br>
+            
+            <label for="email">order :</label><br>
+            <input type="text" id="order" name="email" required>
+            <br><br>
+
+
+            <div class="radio-group">
+                <label>Drink Temp :</label><br>
+                <input type="radio" id="hot" name="temp" value="hot" required>
+                <label>Hot</label>
+                <input type="radio" id="cold" name="temp" value="cold" required>
+                <label >Cold</label>
+            </div>
+            <br>
+            <input id="bt" type="submit" value="Submit">
+        </form>
+
+     </div>
+<br>
+     <div id = "info">
+
+     </div>
+    </div>
+   
+    
+    <br><br><br>
+    
+</div>
+    
+    <script src="appp.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital System</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+  
+    <main>
+        <section class="form-section">
+            <h2>Patient Registration Form</h2>
+            <form id="patientForm">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" >
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" >
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob">
+
+                <label for="pic">Picture Link:</label>
+                <input type="text" id="pic" >
+                
+                
+                <div class="gender-inputs">
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="female" >
+                </div>
+                
+                <label for="diseases">Chronic Diseases:</label>
+                <select id="diseases" multiple >
+                    <option value="Heart Disease">Heart Disease</option>
+                    <option value="Hypertension">Hypertension</option>
+                    <option value="Asthma">Asthma</option>
+                    <option value="Cancer">Cancer</option>
+                    <option value="None">None</option>
+                </select>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" >
+                
+                <input id="bt" type="submit" value="Submit" >
+            </form>
+        </section>
+      
+        
+    </main>
+
+    <div  id="info">
+           
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Hospital System. All rights reserved.</p>
+    </footer>
+
+   
+    <script src="appp.js"></script>
+</body>
+</html>
