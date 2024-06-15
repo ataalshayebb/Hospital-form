@@ -49,6 +49,7 @@
         form input[type="password"],
         form input[type="date"],
         form input[type="tel"],
+        form input[type="email"],
         form select {
             padding: 5px;
             width: 100%;
